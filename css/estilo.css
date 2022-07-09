@@ -1,0 +1,34 @@
+*{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+
+#app{
+    width: 330px;
+    height: 330px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding: 3px 3px;
+    border-radius: 5px;
+    font-size: 45px;
+    background: rgb(138, 230, 0);
+}
+
+#app > div{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    vertical-align: auto;
+    padding-top: 25px;
+    background: greenyellow;
+    box-sizing: border-box;
+}
+button{
+    margin: 20px auto;
+    display: block;
+    padding: 8px 25px;
+    font-size: 20px;
+}
